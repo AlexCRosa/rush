@@ -12,6 +12,7 @@ def rush(x, y):
 
     if x <= 0 or y <= 0:
         print ("Invalid size", file=sys.stderr)
+        return
 
     for height in range(y):
         for width in range(x):
